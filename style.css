@@ -40,13 +40,17 @@ header h1 {
     font-weight: 700;
 }
 
+header img {
+    height: 200px;
+}
+
 /* Navigation */
 nav ul {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: space-around;
-    background: #f8d3f6;
+    background: #ffcbe1;
     border-radius: 5px;
     margin: 10px 0;
     width: 100%;
@@ -90,4 +94,5 @@ nav ul li a:hover {
     width: 100px;
     height: 100px;
     border-radius: 5px;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
 }
