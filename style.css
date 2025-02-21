@@ -27,7 +27,7 @@ body {
     flex-direction: column;
     align-items: center;
     height: auto;
-    background-color: #B0C4B1;
+    background-color: #afc5b4;
     /* Adjusts to content */
 }
 
@@ -57,6 +57,7 @@ nav ul {
     border-radius: 5px;
     margin: 10px 0;
     width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 nav ul li {
@@ -82,7 +83,9 @@ nav ul li a:hover {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     padding: 10px;
-    width: 100%;
+    /* width: 100%; */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
 }
 
 .charm {
